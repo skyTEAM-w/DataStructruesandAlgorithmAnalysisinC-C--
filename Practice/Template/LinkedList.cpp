@@ -33,7 +33,7 @@ inline Node<DATA>::Node(DATA &value)
 template <class DATA>
 inline LinkedList<DATA>::LinkedList()
 {
-    this->head == (Node<DATA> *)malloc(sizeof(Node<DATA>));
+    this->head = (Node<DATA> *)malloc(sizeof(Node<DATA>));
     if (this->head == nullptr)
     {
         std::count << "Error: allocating memories FAILED" << std::endl;
