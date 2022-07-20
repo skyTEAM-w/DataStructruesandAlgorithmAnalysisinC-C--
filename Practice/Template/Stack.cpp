@@ -92,13 +92,13 @@ inline DATA Stack<DATA>::Pop()
     }
 }
 
-template<class DATA>
+template <class DATA>
 inline DATA Stack<DATA>::Top()
 {
     if (!this->IsEmpty())
     {
         return this->head->Next->Element;
     }
-    std::cout<<"Empty Stack"<<std::endl;
+    std::cout << "Empty Stack" << std::endl;
     return NULL;
 }
