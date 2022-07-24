@@ -2,10 +2,11 @@
 #include <string>
 #include <stack>
 #include "LinkedList.hpp"
+#include "StackA.h"
 
 using namespace std;
 
 int main()
 {
-    LinkedList<int> *link = new LinkedList<>();
+    StackA<int> stc(99);
 }
